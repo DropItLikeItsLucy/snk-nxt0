@@ -11,14 +11,15 @@ export default function HomePage() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
         {/* Product Image Section */}
         <div className="w-full max-w-md mx-auto">
+          {/* --- FIX: Remove layout prop, ensure container or styling handles size --- */}
           <Image
-            src="/images/snacky-jar.png" // Replace with your actual image path
+            src="/images/snacky-jar.png" // Ensure this path is correct in /public
             alt="Snacky Peanut Butter Jar"
-            width={600} // Original width
-            height={600} // Original height
-            layout="responsive" // Makes image responsive
-            priority // Load this image first (LCP)
-            className="rounded-lg shadow-lg"
+            width={600} // Provide intrinsic width
+            height={600} // Provide intrinsic height
+            // layout="responsive" // REMOVE THIS LINE
+            priority
+            className="rounded-lg shadow-lg w-full h-auto" // Add w-full and h-auto for responsiveness
           />
         </div>
 

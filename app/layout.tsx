@@ -3,7 +3,7 @@ import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import './globals.css';
 import Header from '@/components/custom/Header'; // Assuming you create this
-// import Footer from '@/components/custom/Footer'; // Assuming you create this
+import Footer from '@/components/custom/Footer'; // Assuming you create this
 import { cn } from '@/lib/utils'; // For combining class names
 
 const inter = Inter({ subsets: ['latin'] });
@@ -27,7 +27,7 @@ export default function RootLayout({
         <main className="min-h-screen pt-16"> {/* Add padding-top if header is fixed */}
           {children}
         </main>
-        {/* <Footer /> Your site footer component */}
+        <Footer /> {/* Your site footer component */}
       </body>
     </html>
   );
