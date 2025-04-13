@@ -19,7 +19,7 @@ const Header = () => {
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex space-x-6 items-center">
-          <Link href="/" className="hover:text-orange-500">მთავარი</Link> {/* Home */}
+          {/* <Link href="/" className="hover:text-orange-500">მთავარი</Link> Home */}
           <Link href="/product" className="hover:text-orange-500">პროდუქტი</Link> {/* Product */}
           <Link href="/partners" className="hover:text-orange-500">პარტნიორები</Link> {/* Partners */}
           <Link href="/blog" className="hover:text-orange-500">ბლოგი</Link> {/* Blog */}

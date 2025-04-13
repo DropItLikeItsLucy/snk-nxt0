@@ -45,22 +45,22 @@ export default function HomePage() {
                {'>'}
             </Button>
              <Button asChild variant="outline" className="w-full justify-between border-blue-500 hover:bg-blue-50">
-              <Link href="YOUR_WOLT_LINK_HERE" target="_blank" rel="noopener noreferrer">
+              <Link href="https://wolt.com/en/geo/tbilisi/brand/snacky" target="_blank" rel="noopener noreferrer">
                 Wolt+ უფასო მიწოდება {/* Wolt+ Free Delivery */} <span>{'>'}</span>
               </Link>
             </Button>
              <Button asChild variant="outline" className="w-full justify-between border-orange-400 hover:bg-orange-50">
-               <Link href="YOUR_GLOVO_LINK_HERE" target="_blank" rel="noopener noreferrer">
+               <Link href="https://glovoapp.com/ge/ka/tbilisi/snacky-tbi/" target="_blank" rel="noopener noreferrer">
                 Glovo Prime მიწოდება {/* Glovo Prime Delivery */} <span>{'>'}</span>
               </Link>
             </Button>
              <Button asChild variant="outline" className="w-full justify-between border-gray-400 hover:bg-gray-50">
-               <Link href="YOUR_EXTRA_GE_LINK_HERE" target="_blank" rel="noopener noreferrer">
+               <Link href="https://extra.ge/search?k=Snacky-%E1%83%90%E1%83%A0%E1%83%90%E1%83%A5%E1%83%98%E1%83%A1%E1%83%98%E1%83%A1-%E1%83%99%E1%83%90%E1%83%A0%E1%83%90%E1%83%A5%E1%83%98" target="_blank" rel="noopener noreferrer">
                 Extra.ge <span>{'>'}</span>
               </Link>
             </Button>
              <Button asChild variant="outline" className="w-full justify-between border-gray-400 hover:bg-gray-50">
-               <Link href="YOUR_VITAMINI_GE_LINK_HERE" target="_blank" rel="noopener noreferrer">
+               <Link href="https://vitamini.ge/shop?search=snacky" target="_blank" rel="noopener noreferrer">
                 Vitamini.ge <span>{'>'}</span>
               </Link>
             </Button>
@@ -77,9 +77,17 @@ export default function HomePage() {
          </div>
          <div className="flex flex-wrap justify-center items-center gap-8 md:gap-12">
             {/* Replace with your actual partner logos */}
-            <Image src="/images/europroduct.png" alt="Europroduct" width={150} height={75} className="object-contain"/>
-            <Image src="/images/nikora.png" alt="Nikora" width={150} height={75} className="object-contain"/>
-            <Image src="/images/fresco.png" alt="Magniti" width={150} height={75} className="object-contain"/>
+            <Image src="/images/partners/europroduct.png" alt="Europroduct" width={150} height={75} className="object-contain"/>
+            <Image src="/images/partners/nikora.png" alt="Nikora" width={150} height={75} className="object-contain"/>
+            <Image src="/images/partners/fresco.png" alt="Magniti" width={150} height={75} className="object-contain"/>
+            <Image src="/images/partners/goodwill.png" alt="Magniti" width={150} height={75} className="object-contain"/>
+            <Image src="/images/partners/spar.png" alt="Magniti" width={150} height={75} className="object-contain"/>
+            <Image src="/images/partners/smart.png" alt="Magniti" width={150} height={75} className="object-contain"/>
+            <Image src="/images/partners/schirnhofer.png" alt="Magniti" width={150} height={75} className="object-contain"/>
+            <Image src="/images/partners/universami.jpg" alt="Magniti" width={150} height={75} className="object-contain"/>
+            <Image src="/images/partners/vitamini.png" alt="Magniti" width={150} height={75} className="object-contain"/>
+            <Image src="/images/partners/zgapari.png" alt="Magniti" width={150} height={75} className="object-contain"/>
+            <Image src="/images/partners/natural.jpg" alt="Magniti" width={150} height={75} className="object-contain"/>
             {/* Add more logos */}
          </div>
        </div>

@@ -9,9 +9,18 @@ export const metadata: Metadata = {
 
 // Store partner data - move this to /lib/data.ts for larger lists
 const partners = [
-  { name: 'Europroduct', logo: '/images/europroduct.png', link: '#' },
-  { name: 'Nikora', logo: '/images/nikora.png', link: '#' },
-  { name: 'Magniti', logo: '/images/fresco.png', link: '#' },
+  { name: 'Europroduct', logo: '/images/partners/europroduct.png', link: 'https://europroduct.ge/' },
+  { name: 'Nikora', logo: '/images/partners/nikora.png', link: 'https://nikorasupermarket.ge/' },
+  { name: 'Fresco', logo: '/images/partners/fresco.png', link: 'https://fresco.ge/' },
+  { name: 'Goodwill', logo: '/images/partners/goodwill.png', link: 'https://goodwill.ge/' },
+  { name: 'Schirnhofer', logo: '/images/partners/schirnhofer.png', link: 'https://www.facebook.com/@schirnhoferGeo/?locale=ka_GE' },
+  { name: 'Smart', logo: '/images/partners/smart.png', link: 'https://smart.ge/ka' },
+  { name: 'Spar', logo: '/images/partners/spar.png', link: 'https://spargeorgia.com/ka' },
+  { name: 'Gvirila', logo: '/images/partners/gvirila.jpg', link: 'https://www.facebook.com/Gvirila2022/?locale=ka_GE' },
+  { name: 'Universami', logo: '/images/partners/universami.jpg', link: 'https://www.facebook.com/Universami/?locale=ka_GE' },
+  { name: 'Vitamini', logo: '/images/partners/vitamini.png', link: 'https://vitamini.ge/' },
+  { name: 'Zgapari', logo: '/images/partners/zgapari.png', link: 'https://online.zgapari.ge/' },
+  { name: 'Naturali', logo: '/images/partners/natural.jpg', link: 'https://www.facebook.com/SupermarketNatural/?locale=ka_GE' },
   // Add all other partners
 ];
 
