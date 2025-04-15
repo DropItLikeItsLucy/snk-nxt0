@@ -22,7 +22,7 @@ export default function ProductPage() {
 
   return (
     <div className="container mx-auto px-4 py-12">
-      <h1 className="text-3xl font-bold text-center mb-8">ჩვენი პროდუქტები</h1> {/* Our Products */}
+      {/* <h1 className="text-3xl font-bold text-center mb-8">ჩვენი პროდუქტები</h1> Our Products */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
         {productData.map((product) => ( // Use productData which has the type
           <Card key={product.id} className="flex flex-col">

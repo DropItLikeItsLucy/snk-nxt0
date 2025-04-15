@@ -15,7 +15,7 @@ export default function BlogIndex() {
 
   return (
     <div className="container mx-auto px-4 py-12">
-      <h1 className="text-3xl font-bold text-center mb-8">ჩვენი ბლოგი</h1> {/* Our Blog */}
+      {/* <h1 className="text-3xl font-bold text-center mb-8">ჩვენი ბლოგი</h1> Our Blog */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"> {/* Using a grid layout */}
         {allPosts.map(({ slug, date, title, excerpt, image }) => ( // Destructure image
           <article key={slug} className="flex flex-col bg-white rounded-lg shadow hover:shadow-md transition-shadow overflow-hidden">

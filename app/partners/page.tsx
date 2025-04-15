@@ -27,7 +27,7 @@ const partners = [
 export default function PartnersPage() {
   return (
     <div className="container mx-auto px-4 py-12">
-      <h1 className="text-3xl font-bold text-center mb-8">სად ვიყიდება / პარტნიორები</h1> {/* Where to Buy / Partners */}
+      {/* <h1 className="text-3xl font-bold text-center mb-8">სად ვიყიდება / პარტნიორები</h1> Where to Buy / Partners */}
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-8 items-center">
         {partners.map((partner) => (
           <a
