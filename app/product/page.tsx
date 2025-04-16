@@ -59,7 +59,10 @@ export default function ProductPage() {
                 {/* --- END OF PRICE DISPLAY LOGIC --- */}
 
                 {/* Add Button */}
-                <Button asChild className="w-full">
+                <Button
+  asChild
+  className="w-full bg-amber-500 hover:bg-amber-600 text-amber-950 focus-visible:ring-amber-400" // Darker text needed
+>
                   {/* Optional: Link to a detail page: /product/{product.id} */}
                    <Link href={`/product/${product.id}`}> {/* Example linking */}
                       დეტალურად {/* View Details */}
