@@ -30,7 +30,7 @@ export default function HomePage() {
 
           {/* Main Buy Button (Example) */}
           <Button size="lg" className="w-full md:w-auto bg-orange-500 hover:bg-orange-600">
-            შეიძინე ვებგვერდიდან {'>'} {/* Buy from Website */}
+            ყიდვა / შეიძინე ვებგვერდიდან {'>'} {/* Buy from Website */}
           </Button>
 
           {/* Delivery Service Links */}
